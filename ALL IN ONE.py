@@ -195,17 +195,16 @@ Contact me on whatsapp:+2347064822519
     elif t == "40":
             os.system("""cd
             git clone https://☠github. com/noob- hackers/ mrphish""") 
-    elif t == "E": 
-        exit()
     elif t == "0":
       print("Updating tool")
+    elif t == "E": 
+      exit()
       os.system("""
   cd $HOME
   rm -f -r ALL IN ONE
   git clone https://github.com/Lekzi/ALL IN ONE
   cd $HOME
   cd ALL IN ONE""")
-      
       loop()
     t2 = input("Do you wanna install another tool: ")
     if t2 == "Y" or  t2 == "y":
