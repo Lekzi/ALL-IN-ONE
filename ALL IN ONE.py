@@ -1,10 +1,9 @@
 import time as t
 import sys
 import os
-os.system("apt install figlet")
-t.sleep(3)
-os.system("clear")
-os.system ("figlet HAPPY NEW YEAR")
+print("""
+	ALL IN ONE is a python tool which helps you to automatically install other hacking tools without stress
+""")
 t.sleep(5)
 os.system("clear")
 def loop():
@@ -25,43 +24,48 @@ Contact me on whatsapp:+2347064822519
     print("""\n\033[1;92m[\033[1;94m
 1. Install Calendar
 2. Install Lekzleap     
-3. install Fire-Crack
+3. Install Fire-Crack
 4. Install Metasploit-framework    
 5. Install Facebook brute force
 6. Install Sql map
 7. Install Tool-X   
 8. Install FBTOOL            
 9. Install Trackip   
-10. Install QRGen
-11. Install PhoneInfoga  
-12. Install Crasher  
-13. Install Crack-rar    
-14. Install RouterSploit 
-15. Install Passmaker
-16. Install Build apks
-17. Install IP Geolocation
-18. Install ONEX
-19. Install multiFB
-20. Install FindMe
-21. Install VCC-GENERATOR
-22. Install Nmap
-23. Install Ip-Tracker
-24. Install Camphish
-25. Install SourceCode-Viewer
-26. Install Botel
-27. Install Whatsapp Monitor
-28. Install Metasploit Framework
-29. Install autopayload
+10.Install QRGen
+11.Install PhoneInfoga  
+12.Install Crasher  
+13.Install Crack-rar    
+14.Install RouterSploit 
+15.Install Passmaker
+16.Install Build apks
+17.Install IP Geolocation
+18.Install ONEX
+19.Install multiFB
+20.Install FindMe
+21.Install VCC-GENERATOR
+22.Install Nmap
+23.Install Ip-Tracker
+24.Install Camphish
+25.Install SourceCode-Viewer
+26.Install Botel
+27.Install Whatsapp Monitor
+28.Install Metasploit Framework
+29.Install autopayload
 30.Install Lekzcal
 31.Install KeyScan
 32.Install hammerDOS
 33.Install NexScanner
 34.Install RootTerminal
 35.Install FB Video Downloader
+36.Install FB Shield
+37.Install Infect
+38.Install Blackmafia Viruz
+39.Install Dark_Crack
+40.Install MrPhish
 """)
     print("\033[1;91m=====================================================")
     print("""\x1b[1;95m
-0. Update Tool   
+0. Update ALL IN ONE   
 """)
     print("\033[1;91m=====================================================")
     print("\x1b[1;92mChoose a Tool You Would Like To Install")
@@ -148,8 +152,7 @@ Contact me on whatsapp:+2347064822519
       os.system("""cd
   git clone https://github.com/ErikTschierschke/WhatsappMonitor.git""")
     elif t == "28" :
-        os.system("""
-    cd
+        os.system("""cd
     sudo apt updates && sudo apt upgrade
     sudo apt install metasploit-framework""")
     elif t == "29":
@@ -160,29 +163,40 @@ Contact me on whatsapp:+2347064822519
         os.system("""cd
     git clone https://github.com/Lekzi/Lekzcal""")
     elif t == "31":
-        os.system("""
-        cd
+        os.system("""cd
         git clone https://https://github.com/4anonz/KeyScan""")
     elif t == "32":
-        os.system("""
-        cd
+        os.system("""cd
         git clone https://github.com/Star-Ford/hammerDOS
         """)
     elif t == "33":
-        os.system("""
-        cd
+        os.system("""cd
         git clone https://github.com/4anonz/NexScanner""")
     elif t == "34":
-            os.system("""
-            cd
+            os.system("""cd
             git clone https://github.com/4anonz/zhash""")
     elif t == "35":
-        os.system("""
-        cd
+        os.system("""cd
         apt install php
         git clone https://github.com/Hackers-Unit/Fb-video-downloader""")
+    elif t == "36":
+        os.system("""cd git clone https://github.com/jaxBCD/FBshield""")
+    elif t == "37":
+        os.system("""cd
+        git clone https://github.com/noob-hackers/infect""")
+    elif t == "38":
+        os.system("""cd
+        git clone https://☠github. com/noob- hackers/ mrphish
+        """)
+    elif t == "39":
+        os.system("""
+        cd
+        git clone https://github.com/Dunia-Kode/Dark_Crack""")
+    elif t == "40":
+            os.system("""cd
+            git clone https://☠github. com/noob- hackers/ mrphish""") 
     elif t == "E": 
-      exit()
+        exit()
     elif t == "0":
       print("Updating tool")
       os.system("""
@@ -194,7 +208,7 @@ Contact me on whatsapp:+2347064822519
       
       loop()
     t2 = input("Do you wanna install another tool: ")
-    if t2 == "Y" or  t2 == "y": 
-      loop()
+    if t2 == "Y" or  t2 == "y":
+       loop()
 loop()
-    
+   
