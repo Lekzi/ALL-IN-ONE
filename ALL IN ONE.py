@@ -196,18 +196,15 @@ Contact me on whatsapp:+2347064822519
             os.system("""cd
             git clone https://☠github. com/noob- hackers/ mrphish""") 
     elif t == "0":
-      print("Updating tool")
-    elif t == "E": 
-      exit()
-      os.system("""
+      print("Updating ALL IN ONE.......")
+    os.system("""
   cd $HOME
   rm -f -r ALL IN ONE
-  git clone https://github.com/Lekzi/ALL IN ONE
-  cd $HOME
-  cd ALL IN ONE""")
-      loop()
-    t2 = input("Do you wanna install another tool: ")
-    if t2 == "Y" or  t2 == "y":
-       loop()
+  git clone https://github.com/Lekzi/ALL-IN-ONE
+  cd ALL-IN-ONE
+  python3 'ALL IN ONE.py' """)
 loop()
+t2 = input("Do you wanna install another tool: ")
+if t2 == "Y" or  t2 == "y":
+       loop()
    
