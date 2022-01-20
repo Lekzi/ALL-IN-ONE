@@ -201,8 +201,7 @@ Contact me on whatsapp:+2347064822519
   cd $HOME
   rm -f -r ALL IN ONE
   git clone https://github.com/Lekzi/ALL-IN-ONE
-  cd ALL-IN-ONE
-  python3 'ALL IN ONE.py' """)
+   """)
 loop()
 t2 = input("Do you wanna install another tool: ")
 if t2 == "Y" or  t2 == "y":
